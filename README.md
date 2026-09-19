@@ -9,13 +9,13 @@ I decided to implement a program that essentially throws heavy context switching
 
 Unfortunately, I decided to try and use reflection. For no reason. And I had to abandon it for the whole reason I wanted it, so the code now features reflection for no reason, when another structure could have done the job much more efficiently. Unfortunately most of my time was spent on reflection. Which is useless. Regardless, the program when ran outputs a slower time for OS threads than hybrid threads, modeling the discussion in class.
 
-#Prerequisites
+## Prerequisites
 Go 1.22.2 or later
 No external dependencies !
 Uses only GO standard lib packages
 
 
-Running
+## Running
 Clone the project
 Run the program with go run .
 Watch as your computer shows the time difference in threads as they complete a random order of tasks. With reflection. 
